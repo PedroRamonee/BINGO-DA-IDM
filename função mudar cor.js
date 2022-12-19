@@ -18,7 +18,7 @@ function verde(flavio){
 
   if (i >= document.getElementsByClassName("box").length){
 
-    document.write('<H2>BINGOOOOOOOOOOOOO </H2>')
+    alert('BINGOOOOOOOOOOOOO')
   }
 }
 
