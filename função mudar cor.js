@@ -1,4 +1,4 @@
-
+var i = 0;
 
 function verde(flavio){
 
@@ -6,13 +6,20 @@ function verde(flavio){
 
       flavio.style.backgroundColor = "green";
       flavio.style.boxShadow = " 0 4px 10px 10px rgba(0, 255, 0, 0.80)";
-
+      i++;
  
   }
   else{
 
       flavio.style.backgroundColor = "red";
       flavio.style.boxShadow = " 0 4px 10px 10px rgba(255, 0,  0, 0.80)";
+      i--;
+  }
 
+  if (i >= document.getElementsByClassName("box").length){
+
+    document.write('<H2>BINGOOOOOOOOOOOOO </H2>')
   }
 }
+
+
