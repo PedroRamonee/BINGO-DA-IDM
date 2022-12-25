@@ -16,10 +16,12 @@ function verde(flavio){
       i--;
   }
 
-  if (i >= document.getElementsByClassName("box").length){
+  setTimeout(() => {if (i >= document.getElementsByClassName("box").length){
 
     alert('BINGOOOOOOOOOOOOO')
+
+  }}, 500)
+
   }
-}
 
 
