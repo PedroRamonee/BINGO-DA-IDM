@@ -9,6 +9,7 @@ body{
     background-attachment: fixed;
     background-size: 512px 512px;
     background-position: center;
+    background-color: black
 }
 
 .box {
@@ -46,7 +47,7 @@ body{
 
 h1{
 
-    color: black;
+    color: white;
     font-family: "montserrat";
     text-align: center;
 }
